@@ -1,0 +1,46 @@
+# ELK Stack
+[elasticsearch]
+192.168.56.111 ansible_ssh_user=root ansible_ssh_pass=IloveJesus@0809
+192.168.56.112 ansible_ssh_user=qjmepunla-tip ansible_ssh_pass=IloveJesus@0809
+
+[kibana]
+192.168.56.111 ansible_ssh_user=root ansible_ssh_pass=IloveJesus@0809
+192.168.56.112 ansible_ssh_user=qjmepunla-tip ansible_ssh_pass=IloveJesus@0809
+
+
+[logstash]
+192.168.56.111 ansible_ssh_user=root ansible_ssh_pass=IloveJesus@0809
+192.168.56.112 ansible_ssh_user=qjmepunla-tip ansible_ssh_pass=IloveJesus@0809
+
+# Nagios
+[nagios]
+192.168.56.111 ansible_ssh_user=root ansible_ssh_pass=IloveJesus@0809
+192.168.56.112 ansible_ssh_user=qjmepunla-tip ansible_ssh_pass=IloveJesus@0809
+
+
+# Performance monitor
+[grafana]
+192.168.56.111 ansible_ssh_user=root ansible_ssh_pass=IloveJesus@0809
+192.168.56.112 ansible_ssh_user=qjmepunla-tip ansible_ssh_pass=IloveJesus@0809
+
+
+[influxdb]
+192.168.56.111 ansible_ssh_user=root ansible_ssh_pass=IloveJesus@0809
+192.168.56.112 ansible_ssh_user=qjmepunla-tip ansible_ssh_pass=IloveJesus@0809
+
+
+[prometheus]
+192.168.56.111 ansible_ssh_user=root ansible_ssh_pass=IloveJesus@0809
+192.168.56.112 ansible_ssh_user=qjmepunla-tip ansible_ssh_pass=IloveJesus@0809
+
+
+# LAMP stack
+[webserver]
+192.168.56.111 ansible_ssh_user=root ansible_ssh_pass=IloveJesus@0809
+192.168.56.112 ansible_ssh_user=qjmepunla-tip ansible_ssh_pass=IloveJesus@0809
+
+
+[dbserver]
+192.168.56.111 ansible_ssh_user=root ansible_ssh_pass=IloveJesus@0809
+192.168.56.112 ansible_ssh_user=qjmepunla-tip ansible_ssh_pass=IloveJesus@0809
+
